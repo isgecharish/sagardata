@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mstInner.master.cs" Inherits="TABillSanctions.mstInner" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style>
+        #header {
+            color: #343434;
+            text-align: center;
+            font-size: 25px;
+            width: 100%;
+            background-color: #65f6d7;
+        }
+
+        #nav {
+            float: left;
+            background-color: #343434;
+            width: 20%;
+            height: 100%;
+        }
+
+
+        .tabcontent {
+            float: left;
+            padding: 0px 12px;
+            width: 80%;
+            border-left: none;
+            height: 100%;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+            ul li a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #f6eded;
+                display: block;
+                transition: 0.3s;
+            }
+
+                ul li a:hover {
+                    color: #f1f1f1;
+                }
+
+                table th{
+                    background-color:#b7fbec
+                }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header id="header">
+            TA Bill Sanction
+        </header>
+        <div style="margin-top: 20px">
+
+            <div id="nav">
+                <ul>
+                    <li><a href="BillForm.aspx">Create Request</a></li>
+                    <li><a href="UpdateBills.aspx">Update Request</a></li>
+                    <li><a href="ViewSanctionBill.aspx">View Request History</a></li>
+                    <li><a href="GenerateOpeningBalance.aspx">Generate Balance</a></li>
+                    <li><a href="ViewBalances.aspx">View Balance</a></li>
+                </ul>
+            </div>
+            <div class="tabcontent">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
