@@ -1,0 +1,98 @@
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\ApplicationInsights.config
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\roslyn\csc.exe
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\roslyn\System.Collections.Immutable.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\roslyn\vbc.exe
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\roslyn\VBCSCompiler.exe
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\roslyn\VBCSCompiler.exe.config
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Imprest.dll.config
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Imprest.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Imprest.pdb
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.AI.Web.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.AI.WindowsServer.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.ApplicationInsights.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.AI.Web.xml
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.AI.WindowsServer.xml
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.ApplicationInsights.xml
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\obj\Debug\Imprest.csprojResolveAssemblyReference.cache
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\obj\Debug\Imprest.dll
+c:\users\3100\documents\visual studio 2015\Projects\Imprest\Imprest\obj\Debug\Imprest.pdb
+E:\projects\Imprest\Imprest\bin\ApplicationInsights.config
+E:\projects\Imprest\Imprest\bin\roslyn\csc.exe
+E:\projects\Imprest\Imprest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\projects\Imprest\Imprest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\projects\Imprest\Imprest\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\projects\Imprest\Imprest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\projects\Imprest\Imprest\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\projects\Imprest\Imprest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\projects\Imprest\Imprest\bin\roslyn\System.Collections.Immutable.dll
+E:\projects\Imprest\Imprest\bin\roslyn\System.Reflection.Metadata.dll
+E:\projects\Imprest\Imprest\bin\roslyn\vbc.exe
+E:\projects\Imprest\Imprest\bin\roslyn\VBCSCompiler.exe
+E:\projects\Imprest\Imprest\bin\roslyn\VBCSCompiler.exe.config
+E:\projects\Imprest\Imprest\bin\Imprest.dll.config
+E:\projects\Imprest\Imprest\bin\Imprest.dll
+E:\projects\Imprest\Imprest\bin\Imprest.pdb
+E:\projects\Imprest\Imprest\bin\Microsoft.AI.Agent.Intercept.dll
+E:\projects\Imprest\Imprest\bin\Microsoft.AI.DependencyCollector.dll
+E:\projects\Imprest\Imprest\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\projects\Imprest\Imprest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\projects\Imprest\Imprest\bin\Microsoft.AI.Web.dll
+E:\projects\Imprest\Imprest\bin\Microsoft.AI.WindowsServer.dll
+E:\projects\Imprest\Imprest\bin\Microsoft.ApplicationInsights.dll
+E:\projects\Imprest\Imprest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\projects\Imprest\Imprest\bin\Microsoft.AI.DependencyCollector.xml
+E:\projects\Imprest\Imprest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\projects\Imprest\Imprest\bin\Microsoft.AI.Web.xml
+E:\projects\Imprest\Imprest\bin\Microsoft.AI.WindowsServer.xml
+E:\projects\Imprest\Imprest\bin\Microsoft.ApplicationInsights.xml
+E:\projects\Imprest\Imprest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\projects\Imprest\Imprest\obj\Debug\Imprest.dll
+E:\projects\Imprest\Imprest\obj\Debug\Imprest.pdb
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\ApplicationInsights.config
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\roslyn\csc.exe
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\roslyn\System.Collections.Immutable.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\roslyn\System.Reflection.Metadata.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\roslyn\vbc.exe
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\roslyn\VBCSCompiler.exe
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\roslyn\VBCSCompiler.exe.config
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Imprest.dll.config
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Imprest.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Imprest.pdb
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.AI.Agent.Intercept.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.AI.DependencyCollector.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.AI.Web.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.AI.WindowsServer.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.ApplicationInsights.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.AI.DependencyCollector.xml
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.AI.Web.xml
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.AI.WindowsServer.xml
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.ApplicationInsights.xml
+E:\DATA Daily Backup\projects\Imprest\Imprest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DATA Daily Backup\projects\Imprest\Imprest\obj\Debug\Imprest.csprojResolveAssemblyReference.cache
+E:\DATA Daily Backup\projects\Imprest\Imprest\obj\Debug\Imprest.dll
+E:\DATA Daily Backup\projects\Imprest\Imprest\obj\Debug\Imprest.pdb

@@ -1,0 +1,6 @@
+E:\DATA Daily Backup\projects\PakingList\BusinessLogic\bin\Release\BusinessLogic.dll
+E:\DATA Daily Backup\projects\PakingList\BusinessLogic\bin\Release\BusinessLogic.pdb
+E:\DATA Daily Backup\projects\PakingList\BusinessLogic\bin\Release\Microsoft.ApplicationBlocks.Data.dll
+E:\DATA Daily Backup\projects\PakingList\BusinessLogic\obj\Release\BusinessLogic.csprojResolveAssemblyReference.cache
+E:\DATA Daily Backup\projects\PakingList\BusinessLogic\obj\Release\BusinessLogic.dll
+E:\DATA Daily Backup\projects\PakingList\BusinessLogic\obj\Release\BusinessLogic.pdb
