@@ -14,7 +14,7 @@ namespace ProjectProgressUpdate
         public static string ConLive = ConfigurationManager.AppSettings["ConnectionLive"];
         public DataTable GetProjectProgressByID(string username,string ProjectId,string Activity)
         {
-            string sGetProjectProgress = @"select t_cprj,t_cact,t_sdst,t_sdfn,t_acsd,t_acfn, t_dsca,t_remk from ttpisg910200 WHERE t_cprj = '" + ProjectId + "' and t_cact='" + Activity + "'";
+            string sGetProjectProgress = @"select t_cprj,t_cact,t_sdst,t_sdfn,t_acsd,t_acfn, t_dsca,t_remk,t_otfn,t_otst from ttpisg910200 WHERE t_cprj = '" + ProjectId + "' and t_cact='" + Activity + "'";
             if (username == "isgec")
 
             { return SqlHelper.ExecuteDataset(Con, CommandType.Text, sGetProjectProgress).Tables[0]; }
@@ -23,10 +23,11 @@ namespace ProjectProgressUpdate
             return SqlHelper.ExecuteDataset(ConLive, CommandType.Text, sGetProjectProgress).Tables[0];
             }
         }
-        public int UpdatRecords(string username,string ProjectId, string Activity,string Actual_SDate, string Actual_FDate, string Remarks)
+        public int UpdatRecords(string username,string ProjectId, string Activity,string Actual_SDate, string Actual_FDate, string Remarks, string Outlook_SDate, string Outlook_FDate)
         {
-            string sUpdateRecords = @"Update ttpisg910200 set t_acsd='" + Actual_SDate + "' ,t_remk='" + Remarks + "', t_acfn='" + Actual_FDate + @"'
-                            WHERE t_cprj = '" + ProjectId + "' and t_cact='" + Activity + "'";
+            string sUpdateRecords = @"Update ttpisg910200 set t_acsd ='" + Actual_SDate + "' ,t_remk ='" + Remarks + "', t_acfn ='" + Actual_FDate + @"'
+                           , t_otst ='" + Outlook_SDate + "', t_otfn ='" + Outlook_FDate + "' WHERE t_cprj = '" + ProjectId + "' and t_cact ='" + Activity + "'";
+
             if (username == "isgec")
             {
                 return SqlHelper.ExecuteNonQuery(Con, CommandType.Text, sUpdateRecords);

@@ -127,6 +127,40 @@
             </div>
             </div>
 
+       <div class="container">
+               <div class="row" style="margin-top:10px">
+            <div class="col-xs-8">
+                <label>Outlook Start Date</label>
+                </div>
+            </div>
+            </div>
+        <div class="container">
+      
+           
+        <div class="row" style="margin-top:10px">
+            <div class="col-xs-12">
+                <asp:TextBox runat="server" CssClass="form-control" ID="txtOutStartDate" />
+                </div>
+            </div>
+            </div>
+
+        <div class="container">
+               <div class="row" style="margin-top:10px">
+            <div class="col-xs-8">
+                <label>Outlook Finish Date</label>
+                
+                </div>
+            </div>
+            </div>
+        <div class="container">
+<div class="row" style="margin-top:10px">
+            <div class="col-xs-12">
+                <asp:TextBox runat="server" CssClass="form-control" ID="txtOutFinishDate" />
+                </div>
+            </div>
+            </div>
+
+
         <div class="container">
                <div class="row" style="margin-top:10px">
             <div class="col-xs-8">

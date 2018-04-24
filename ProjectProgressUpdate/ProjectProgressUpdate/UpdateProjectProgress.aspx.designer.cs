@@ -58,6 +58,24 @@ namespace ProjectProgressUpdate {
         protected global::System.Web.UI.WebControls.TextBox txtScheduledFinishDate;
         
         /// <summary>
+        /// txtOutStartDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOutStartDate;
+        
+        /// <summary>
+        /// txtOutFinishDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOutFinishDate;
+        
+        /// <summary>
         /// txtActualStartDate control.
         /// </summary>
         /// <remarks>

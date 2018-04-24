@@ -52,6 +52,29 @@ namespace ProjectProgressUpdate
                 txtScheduledFinishDate.Text = Convert.ToDateTime(dt.Rows[0]["t_sdfn"]).ToString("dd-MM-yyyy");
                 txtRemarks.Text = dt.Rows[0]["t_remk"].ToString();
             }
+            txtOutStartDate.Attributes.Add("type", "date");
+            if ((Convert.ToDateTime(dt.Rows[0]["t_otst"]).ToString("yyyy") == "1753" || Convert.ToDateTime(dt.Rows[0]["t_otst"]).ToString("yyyy") == "1900" || (dt.Rows[0]["t_otst"]).ToString() == string.Empty))
+            {
+                string sdate = "yyyy-MM-dd";
+                txtOutStartDate.Attributes.Add("value", sdate);
+
+            }
+            else
+            {
+                txtOutStartDate.Attributes.Add("value", Convert.ToDateTime(dt.Rows[0]["t_otst"]).ToString("yyyy-MM-dd"));
+            }
+            txtOutFinishDate.Attributes.Add("type", "date");
+            if ((Convert.ToDateTime(dt.Rows[0]["t_otfn"]).ToString("yyyy") == "1753" || Convert.ToDateTime(dt.Rows[0]["t_otfn"]).ToString("yyyy") == "1900" || (dt.Rows[0]["t_otfn"]).ToString() == string.Empty))
+            {
+                string fdate = "yyyy-MM-dd";
+                txtOutFinishDate.Attributes.Add("value", fdate);
+
+            }
+            else
+            {
+                txtOutFinishDate.Attributes.Add("value", Convert.ToDateTime(dt.Rows[0]["t_otfn"]).ToString("yyyy-MM-dd"));
+            }
+
             txtActualStartDate.Attributes.Add("type", "date");
             if (( Convert.ToDateTime(dt.Rows[0]["t_acsd"]).ToString("yyyy") == "1753"|| Convert.ToDateTime(dt.Rows[0]["t_acsd"]).ToString("yyyy") == "1900"|| (dt.Rows[0]["t_acsd"]).ToString() == string.Empty))
             {
@@ -73,7 +96,7 @@ namespace ProjectProgressUpdate
             else
             {
                 txtActualFinishDate.Attributes.Add("value", Convert.ToDateTime(dt.Rows[0]["t_acfn"]).ToString("yyyy-MM-dd"));
-                btnUpdate.Enabled = false;
+                //btnUpdate.Enabled = false;
             }
           
         }
@@ -82,10 +105,31 @@ namespace ProjectProgressUpdate
             string sUsername = (string)(Session["Username"]);
             string Actual_SDate;
             string Actual_FDate;
+            string Outlook_SDate;
+            string Outlook_FDate;
+
             string Remarks;
             try
             {
                 objProjectCls = new ProjectClass();
+                if (txtOutStartDate.Text == "")
+                {
+                    Outlook_SDate = "";
+                }
+                else
+                {
+                    Outlook_SDate = Convert.ToDateTime(txtOutStartDate.Text).ToString("yyyy-MM-dd");
+                }
+                if (txtOutFinishDate.Text == "")
+                {
+                    Outlook_FDate = "";
+                }
+                else
+                {
+                    Outlook_FDate = Convert.ToDateTime(txtOutFinishDate.Text).ToString("yyyy-MM-dd");
+
+                }
+
                 if (txtActualStartDate.Text == "")
                     Actual_SDate = "";
                 else { Actual_SDate= Convert.ToDateTime(txtActualStartDate.Text).ToString("yyyy-MM-dd"); }
@@ -95,7 +139,7 @@ namespace ProjectProgressUpdate
                 if (txtRemarks.Text == "")
                     Remarks = "";
                 else { Remarks = txtRemarks.Text.ToString(); }
-                int res = objProjectCls.UpdatRecords(sUsername,Request.QueryString["cprj"], Request.QueryString["cact"], Actual_SDate, Actual_FDate,Remarks);
+                int res = objProjectCls.UpdatRecords(sUsername, Request.QueryString["cprj"], Request.QueryString["cact"], Actual_SDate, Actual_FDate, Remarks, Outlook_SDate, Outlook_FDate);
                 if (res > 0)
                 {
                     ScriptManager.RegisterStartupScript(this, typeof(Page), "alert", "alert('Successfully Updated');", true);
